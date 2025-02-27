@@ -5,3 +5,10 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+.banner{
+    background-image:url(C:\Users\VRM1630_2022\Documents\IKT\lucky\img\banner.jpg);
+    height:400px;
+    background-position:center center;
+    background-size:cover;
+}
