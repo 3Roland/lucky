@@ -19,6 +19,8 @@ body {
     border:1px solid #1f5b25;
     border-radius:4px;
     margin-bottom:1rem;
+    position: relative;
+    display:inline-block;
 }
 
 .kave:hover{
@@ -31,4 +33,10 @@ body {
     margin-top:1rem;
     margin-bottom: 1rem;
     font-variant:small-caps;
+}
+
+#discount{
+    position:absolute;
+    height:25%;
+    right:1%;
 }
