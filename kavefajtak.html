@@ -45,18 +45,19 @@
         </div>
       </div>
     <div class="container">
-      <div class="row gx-5">
-          <div class="col-lg-4 col-md-6">
+      <div class="row">
+          <div class="col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#americanoModal">
             <div class="card" style="width: 18rem;">
               <img src="./img/coffees/americano_k.png" class="card-img-top" alt="A cup of Americano">
               <div class="card-body">
+                </button>
                 <p class="card-text">Americano</p>
               </div>
             </div>
           </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#cappucinoModal">
             <img src="./img/coffees/cappuccino_k.png" class="card-img-top" alt="A cup of Cappuccino">
             <img id="discount" src="./img/icons/sunflower.svg" alt="" class="img-fluid">
             <div class="card-body">
@@ -66,7 +67,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#espressoModal">
               <img src="./img/coffees/espresso_k.png" class="card-img-top" alt="A cup of Espresso">
               <div class="card-body">
                 <p class="card-text">Espresso</p>
@@ -74,7 +75,7 @@
             </div> 
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#latteModal">
               <img src="./img/coffees/latte_k.png" class="card-img-top" alt="A cup of Latte">
               <div class="card-body">
                 <p class="card-text">Latte</p>
@@ -83,6 +84,120 @@
           </div>
       </div>
     </div>
+
+    
+    <div class="modal fade" id="americanoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Americano</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="./img/coffees/americano_k.png" alt="Americano" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Americano</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rem perspiciatis aut earum, iure dolorem, est ab voluptatum tempora, quaerat culpa! Hic quod esse omnis accusamus cum, recusandae unde expedita?</p>
+                <p>Deleniti, impedit repudiandae enim, quaerat sit atque illum aspernatur, iure totam amet perferendis illo reiciendis minus ex autem blanditiis recusandae aliquid perspiciatis rem eum. Iusto non magni dolores laborum deserunt!</p>
+              </div>
+            </div>
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezár</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cappucinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cappucino</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="./img/coffees/cappuccino_k.png" alt="Americano" class="img-fluid">
+                </div>
+                <div class="col-sm-8">
+                  <h2>Cappucino</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rem perspiciatis aut earum, iure dolorem, est ab voluptatum tempora, quaerat culpa! Hic quod esse omnis accusamus cum, recusandae unde expedita?</p>
+                  <p>Deleniti, impedit repudiandae enim, quaerat sit atque illum aspernatur, iure totam amet perferendis illo reiciendis minus ex autem blanditiis recusandae aliquid perspiciatis rem eum. Iusto non magni dolores laborum deserunt!</p>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezár</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="espressoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Espresso</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="./img/coffees/americano_k.png" alt="Americano" class="img-fluid">
+                </div>
+                <div class="col-sm-8">
+                  <h2>Espresso</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rem perspiciatis aut earum, iure dolorem, est ab voluptatum tempora, quaerat culpa! Hic quod esse omnis accusamus cum, recusandae unde expedita?</p>
+                  <p>Deleniti, impedit repudiandae enim, quaerat sit atque illum aspernatur, iure totam amet perferendis illo reiciendis minus ex autem blanditiis recusandae aliquid perspiciatis rem eum. Iusto non magni dolores laborum deserunt!</p>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezár</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="latteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Latte</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="./img/coffees/latte_k.png" alt="Americano" class="img-fluid">
+                </div>
+                <div class="col-sm-8">
+                  <h2>Latte</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rem perspiciatis aut earum, iure dolorem, est ab voluptatum tempora, quaerat culpa! Hic quod esse omnis accusamus cum, recusandae unde expedita?</p>
+                  <p>Deleniti, impedit repudiandae enim, quaerat sit atque illum aspernatur, iure totam amet perferendis illo reiciendis minus ex autem blanditiis recusandae aliquid perspiciatis rem eum. Iusto non magni dolores laborum deserunt!</p>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezár</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
         <div class="footer">
           <footer class="container">
             <div class="row">
@@ -100,7 +215,7 @@
               <form action="">
                   <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="E-mail address" aria-label="Email" aria-describedby="button-addon">
-                    <button class="btn btn-outline-primary" type="button" id="button-addon">Feliratkozom</button>
+                    <button class="btn btn-outline-success" type="button" id="button-addon">Feliratkozom</button>
                   </div>
               </form>
             </div>
