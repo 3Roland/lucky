@@ -69,3 +69,9 @@ footer li>img{
 .modal-footer{
     background-color: #fbefdb;
 }
+
+.blog-img{
+    border: solid;
+    border-color: #1f5b25;
+    border-radius: 2%;
+}
