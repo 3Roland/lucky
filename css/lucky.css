@@ -74,4 +74,16 @@ footer li>img{
     border: solid;
     border-color: #1f5b25;
     border-radius: 2%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.blog-img2{
+    border: solid;
+    border-color: #1f5b25;
+    border-radius: 2%;
+    float: right;
+    margin-top: 5%;
+    margin-left: 5%;
 }
